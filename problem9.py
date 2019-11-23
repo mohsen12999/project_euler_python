@@ -1,4 +1,5 @@
-# https://projecteuler.net/problem=8
+# https://projecteuler.net/problem=9
+# Special Pythagorean triplet
 # A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
 # a2 + b2 = c2
 # For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
