@@ -19,3 +19,4 @@ for i in range(2,max):
         sum=sum+i
 
 print(sum)
+# 142913828922
