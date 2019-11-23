@@ -9,7 +9,7 @@ for i in range(2,num+1):
     for j in range(i,0,-1):
         if i%j==0 and answer%j==0:
             break
-    print(i,j,i/j)
+    # print(i,j,i/j)
     answer=answer*i/j
 
 print(answer)
