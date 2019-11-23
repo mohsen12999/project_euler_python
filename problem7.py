@@ -3,7 +3,7 @@
 # What is the 10 001st prime number?
 
 def isPrime(number):
-    for i in range(2,int(number/2)):
+    for i in range(2,int(number/2)+1):
         if number % i ==0:
             return False
 
@@ -20,4 +20,4 @@ while count<=number:
         count=count+1
 
 print(i)
-# 104743
+# 104759

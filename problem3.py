@@ -5,7 +5,7 @@
 num = 600851475143
 
 def isPrime(number):
-    for i in range(2,int(number/2)):
+    for i in range(2,int(number/2)+1):
         if number % i ==0:
             return False
     
@@ -16,9 +16,9 @@ i = 2
 while i<=number:
     if(number%i==0):
         number = number/i
-        print("find i: ",i," ,new number is: ",number)
+        # print("find i: ",i," ,new number is: ",number)
     else:
         i=i+1
 
 print("answer is: ",i)
-#6857
+# 6857
