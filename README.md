@@ -1,2 +1,5 @@
-# project_euler_python
-project euler with python
+# project euler python
+
+Solve some of project euler with python
+
+[Project Euler Website](https://projecteuler.net/)
