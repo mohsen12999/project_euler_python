@@ -21,6 +21,5 @@ for b in range(1000):
     if answer:
         break
 
-# 200 375 425
+print(a,b,c)
 print(a*b*c)
-# 31875000

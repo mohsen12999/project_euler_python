@@ -14,4 +14,4 @@ for i in range(2,num+1):
     answer=answer*i/j
 
 print(answer)
-# 232792560
+

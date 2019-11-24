@@ -70,6 +70,12 @@ for i in range(20-3):
         if p>max:
             max=p
 
+
+for i in range(19,3,-1):
+    for j in range(20-3):
+        p = arr[i][j]*arr[i-1][j+1]*arr[i-2][j+2]*arr[i-3][j+3]
+        if p>max:
+            max=p
+
 print(max)
-# 51267216 **
 

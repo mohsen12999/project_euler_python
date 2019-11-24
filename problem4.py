@@ -20,4 +20,4 @@ for i in range(100,1000):
             answer=num
 
 print(num1,num2,answer)
-#906609 913 993
+

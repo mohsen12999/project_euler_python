@@ -21,4 +21,4 @@ squareofsum=sum*sum
 
 answer = squareofsum-sumofsquares
 print(answer)
-# 25164150
+
