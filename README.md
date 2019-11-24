@@ -18,3 +18,5 @@ Solve some of project euler with python
 - :sob: Problem 12: [Highly divisible triangular number](./problem12.py)
 - :sob: Problem 13: [Large sum](./problem13.py)
 - :thumbsup: Problem 14: [Longest Collatz sequence](./problem14.py)
+- :sob: Problem 15: [Lattice paths](./problem15.py)
+- :sob: Problem 16: [Power digit sum](./problem16.py)
