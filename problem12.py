@@ -14,21 +14,22 @@
 # What is the value of the first triangle number to have over five hundred divisors?
 
 def count_divisors(number):
-    count=0
-    for i in range(1,number+1):
-        if number%i==0:
-            count=count+1
+    count = 0
+    for i in range(1, number+1):
+        if number % i == 0:
+            count = count+1
     return count
 
-i=0
-triangle=0
+
+i = 0
+triangle = 0
 
 while True:
-    i=i+1
-    triangle=triangle+i
-    count=count_divisors(triangle)
-    print(triangle,count)
-    if count>=500:
+    i = i+1
+    triangle = triangle+i
+    count = count_divisors(triangle)
+    print(triangle, count)
+    if count >= 500:
         break
 
 print(triangle)

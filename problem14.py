@@ -9,26 +9,27 @@
 # Which starting number, under one million, produces the longest chain?
 # NOTE: Once the chain starts the terms are allowed to go above one million.
 
-last=1000000
-maxChain=0
-answer=0
+last = 1000000
+maxChain = 0
+answer = 0
+
 
 def count_chain(number):
-	count=1
-	while number!=1:
-		if number%2==0:
-			number=number/2
-		else:
-			number=3*number+1
+    count = 1
+    while number != 1:
+        if number % 2 == 0:
+            number = number/2
+        else:
+            number = 3*number+1
 
-		count=count+1
-	return count
+        count = count+1
+    return count
 
-for n in range(2,last):
-	chain = count_chain(n)
-	if chain>maxChain:
-		answer=n
-		maxChain=chain
 
-print(answer,maxChain)
+for n in range(2, last):
+    chain = count_chain(n)
+    if chain > maxChain:
+        answer = n
+        maxChain = chain
 
+print(answer, maxChain)

@@ -7,18 +7,17 @@
 # Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 − 385 = 2640.
 # Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
-max=100
+max = 100
 
-sumofsquares=0
+sumofsquares = 0
 for i in range(max+1):
     sumofsquares = sumofsquares + i*i
 
-sum=0
+sum = 0
 for i in range(max+1):
     sum = sum+i
 
-squareofsum=sum*sum
+squareofsum = sum*sum
 
 answer = squareofsum-sumofsquares
 print(answer)
-
