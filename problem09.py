@@ -8,7 +8,7 @@
 
 import math
 
-sum=1000
+sum = 1000
 answer = False
 
 for b in range(1000):
@@ -16,10 +16,10 @@ for b in range(1000):
         c2 = a*a + b*b
         c = math.sqrt(c2)
         if a+b+c == 1000:
-            answer=True
+            answer = True
             break
     if answer:
         break
 
-print(a,b,c)
+print(a, b, c)
 print(a*b*c)

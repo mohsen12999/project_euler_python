@@ -11,10 +11,9 @@ sum = 1
 
 while first + second < 4000000:
     third = first + second
-    if third%2==1:
-        sum+=third
-    
-    first,second = second,third
+    if third % 2 == 1:
+        sum += third
+
+    first, second = second, third
 
 print(sum)
-
